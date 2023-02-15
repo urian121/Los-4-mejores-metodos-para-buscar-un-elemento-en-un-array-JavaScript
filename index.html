@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los 4 mejores métodos para buscar un elemento en un array JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins:wght@500;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+
+    <section> </section>
+
+
+    <div class="contenedorRespuesta"></div>
+
+
+
+    <script src="./index.js"></script>
+    <script>
+    window.addEventListener("load", (event) => {
+        let body = document.body;
+        body.style.backgroundColor = "#f2f4f8";
+
+
+        let h1 = document.createElement('h1');
+        h1.style.textAlign = 'center';
+        h1.style.marginTop = '100px';
+        let valorT = "Los 4 mejores métodos para buscar un elemento en un array JavaScript";
+        let text = document.createTextNode(valorT);
+
+        h1.appendChild(text);
+
+
+        const section = document.getElementById("section");
+        document.body.insertBefore(h1, section);
+    });
+    </script>
+
+</body>
+</html>

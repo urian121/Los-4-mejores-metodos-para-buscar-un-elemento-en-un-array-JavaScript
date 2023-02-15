@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{ font-family: 'Oswald', sans-serif; }
+.contenedorRespuesta{
+    width: 90%;
+    min-height: 80px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #cecece;
+    padding: 10px;
+    border-top: 5px solid #888;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
