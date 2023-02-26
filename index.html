@@ -28,7 +28,6 @@
         let body = document.body;
         body.style.backgroundColor = "#f2f4f8";
 
-
         let h1 = document.createElement('h1');
         h1.style.textAlign = 'center';
         h1.style.marginTop = '100px';
@@ -37,9 +36,11 @@
 
         h1.appendChild(text);
 
-
         const section = document.getElementById("section");
         document.body.insertBefore(h1, section);
+
+        let contenedorRespuesta = document.querySelector(".contenedorRespuesta");
+        contenedorRespuesta.innerHTML = "<h2>Canal Web Developer</h2>";
     });
     </script>
 
